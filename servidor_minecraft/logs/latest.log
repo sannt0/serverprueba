@@ -1,456 +1,211 @@
-[04:09:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[04:09:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[04:09:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:09:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[04:09:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[18:14:48] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[18:14:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[18:14:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:14:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[18:14:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - Chunky (1.4.40), Citizens (2.0.35-SNAPSHOT (build 3566)), DecentHolograms (2.9.6), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1130;ef7e84e), LuckPerms (5.5.0), Multiverse-Core (5.1.1), PlaceholderAPI (2.11.6), SkinsRestorer (15.7.7), Vault (1.7.3-b131), ViaVersion (5.4.1), WorldGuard (7.0.12+829a4a4), ajLeaderboards (2.10.1)
-[04:09:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:09:47] [ServerMain/INFO]: Loaded 1290 recipes
-[04:09:47] [ServerMain/INFO]: Loaded 1399 advancements
-[04:09:47] [Server thread/INFO]: Starting minecraft server version 1.21
-[04:09:47] [Server thread/INFO]: Loading properties
-[04:09:47] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[04:09:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:09:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:09:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:09:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[04:09:49] [Server thread/INFO]: Default game type: SURVIVAL
-[04:09:49] [Server thread/INFO]: Generating keypair
-[04:09:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:09:49] [Server thread/INFO]: Using epoll channel type
-[04:09:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:09:49] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[04:09:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
-[04:09:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
-[04:09:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:09:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:09:53] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[04:09:54] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[04:09:54] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[04:09:54] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1130;ef7e84e
-[04:09:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@41c853d2]
-[04:09:56] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
-[04:09:56] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
-[04:09:56] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.6
-[04:09:56] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[04:09:56] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.1
-[04:09:56] [Server thread/INFO]: [ajLeaderboards] Loading server plugin ajLeaderboards v2.10.1
-[04:09:56] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[04:09:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[04:09:58] [Server thread/INFO]: [ajLeaderboards] Downloading okhttp...
-[04:09:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
-[04:09:58] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for okhttp as https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.11.0/okhttp-4.11.0.jar.sha1
-[04:09:58] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for okhttp
-[04:09:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
-[04:09:58] [Server thread/INFO]: [ajLeaderboards] Downloaded okhttp successfully!
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloading okio...
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for okio as https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.2.0/okio-3.2.0.jar.sha1
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for okio
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded okio successfully!
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloading okio-jvm...
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for okio-jvm as https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.jar.sha1
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for okio-jvm
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded okio-jvm successfully!
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloading kotlin-stdlib-jdk8...
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for kotlin-stdlib-jdk8 as https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar.sha1
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for kotlin-stdlib-jdk8
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded kotlin-stdlib-jdk8 successfully!
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloading kotlin-stdlib...
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for kotlin-stdlib as https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar.sha1
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for kotlin-stdlib
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
-[04:09:59] [Server thread/INFO]: [ajLeaderboards] Downloaded kotlin-stdlib successfully!
-[04:10:00] [Server thread/INFO]: [ajLeaderboards] Downloading kotlin-stdlib-common...
-[04:10:00] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
-[04:10:00] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for kotlin-stdlib-common as https://repo.papermc.io/repository/maven-public/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.jar.sha1
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for kotlin-stdlib-common
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloaded kotlin-stdlib-common successfully!
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloading annotations...
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for annotations as https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar.sha1
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for annotations
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloaded annotations successfully!
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloading kotlin-stdlib-jdk7...
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Resolved checksum URL for kotlin-stdlib-jdk7 as https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar.sha1
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloaded checksum for kotlin-stdlib-jdk7
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
-[04:10:01] [Server thread/INFO]: [ajLeaderboards] Downloaded kotlin-stdlib-jdk7 successfully!
-[04:10:01] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.35-SNAPSHOT (build 3566)
-[04:10:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:10:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[04:10:02] [Server thread/INFO]:         __    
-[04:10:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[04:10:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[04:10:02] [Server thread/INFO]: 
-[04:10:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[04:10:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
-[04:10:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[04:10:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[04:10:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1115ms)
-[04:10:02] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[04:10:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[04:10:03] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[04:10:03] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[04:10:03] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1130;ef7e84e
-[04:10:03] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[04:10:03] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[04:10:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[04:10:03] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[04:10:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
-[04:10:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
-[04:10:07] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[04:10:07] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:10:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.7]
-[04:10:08] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[04:10:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:10:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:10:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:10:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:10:08] [Server thread/INFO]: Preparing level "world"
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:10:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:10:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:10:09] [Server thread/INFO]: Time elapsed: 1264 ms
-[04:10:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:10:10] [Server thread/INFO]: Time elapsed: 331 ms
-[04:10:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:10:10] [Server thread/INFO]: Time elapsed: 96 ms
-[04:10:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
-[04:10:10] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[04:10:10] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[04:10:10] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[04:10:10] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
-[04:10:10] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK
-[04:10:10] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21-130-b1b5d4c (MC: 1.21) and contains features of future minecraft versions which do not exist in 1.21-130-b1b5d4c (MC: 1.21) hence the tree type PALE_OAK is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
-[04:10:10] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK_CREAKING
-[04:10:10] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21-130-b1b5d4c (MC: 1.21) and contains features of future minecraft versions which do not exist in 1.21-130-b1b5d4c (MC: 1.21) hence the tree type PALE_OAK_CREAKING is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[04:10:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[04:10:10] [Server thread/INFO]: [WorldGuard] Loading region data...
-[04:10:11] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.6
-[04:10:11] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_21_R1 (1.21).
-[04:10:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
-[04:10:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[04:10:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[04:10:11] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
-[04:10:11] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[04:10:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.1
-[04:10:13] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[04:10:14] [Server thread/INFO]: Time elapsed: 930 ms
-[04:10:14] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
-[04:10:14] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
-[04:10:14] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
-[04:10:14] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
-[04:10:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
-[04:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.1.1]
-[04:10:15] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[04:10:15] [Server thread/INFO]: [Multiverse-Core] Version 5.1.1 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[04:10:15] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[04:10:15] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.10.1
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Starting config converter!
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] 26 children
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: stat-refresh:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: stat-refresh:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  1200
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  1200
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: 1200
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: stat-refresh: 1200 Replace w: stat-refresh: 1200
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: enable-dontupdate-permission:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: enable-dontupdate-permission:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: enable-dontupdate-permission: true Replace w: enable-dontupdate-permission: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: blocking-fetch:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: blocking-fetch:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  auto
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  auto
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: auto
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: blocking-fetch: auto Replace w: blocking-fetch: auto
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: register-lp-contexts:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: register-lp-contexts:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: register-lp-contexts: false Replace w: register-lp-contexts: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: only-register-lpc-for:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: only-register-lpc-for:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: only-register-lpc-for: [] Replace w: only-register-lpc-for: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: reverse-sort:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: reverse-sort:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: reverse-sort: [] Replace w: reverse-sort: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: sign-update:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: sign-update:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  20
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  20
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: 20
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: sign-update: 20 Replace w: sign-update: 20
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: update-on-join:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: update-on-join:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: update-on-join: true Replace w: update-on-join: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: extras:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: extras:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning:   - "statistic_player_kills"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after: 
-  - "statistic_player_kills"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: [statistic_player_kills]
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: extras:
-  - "statistic_player_kills" Replace w: extras: 
-- "statistic_player_kills"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: comma:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: comma:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  ","
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  ","
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: ,
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: comma: "," Replace w: comma: ","
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: decimal:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: decimal:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  "."
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  "."
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: .
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: decimal: "." Replace w: decimal: "."
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: reset-weekly-on:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: reset-weekly-on:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  sunday
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  sunday
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: sunday
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: reset-weekly-on: sunday Replace w: reset-weekly-on: sunday
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: value-names:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: value-names:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: - "statistic_player_kills%kills"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after: 
-- "statistic_player_kills%kills"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: [statistic_player_kills%kills]
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: value-names:
-- "statistic_player_kills%kills" Replace w: value-names: 
-- "statistic_player_kills%kills"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: update-stats:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: update-stats:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: update-stats: true Replace w: update-stats: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: only-update:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: only-update:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: only-update: [] Replace w: only-update: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: require-zero-validation:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: require-zero-validation:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: require-zero-validation: true Replace w: require-zero-validation: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: dont-add-zero:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: dont-add-zero:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: dont-add-zero: [] Replace w: dont-add-zero: []
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: fetch-prefix-suffix-from-vault:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: fetch-prefix-suffix-from-vault:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: fetch-prefix-suffix-from-vault: true Replace w: fetch-prefix-suffix-from-vault: true
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: debug:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: debug:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: debug: false Replace w: debug: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: update-de-bug:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: update-de-bug:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: update-de-bug: false Replace w: update-de-bug: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: particles:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: particles:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: particles: false Replace w: particles: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: fetching-de-bug:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: fetching-de-bug:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: fetching-de-bug: false Replace w: fetching-de-bug: false
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: max-fetching-threads:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: max-fetching-threads:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  70
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  70
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: 70
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: max-fetching-threads: 70 Replace w: max-fetching-threads: 70
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: config-version:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: config-version:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  35
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: 
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  35
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: 28
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: no-data-name:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: no-data-name:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  "---"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: no-data-score: "---"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  "---"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: ---
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: no-data-name: "---" Replace w: no-data-name: ---
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Key: no-data-score:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] keySec: no-data-score:
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal before:  "---"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Scanning: # ^ Change those in messages.yml now
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] newVal after:  "---"
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] nodeString: ---
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Find: no-data-score: "---" Replace w: no-data-score: ---
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
-[04:10:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.10.1]
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
-[04:10:16] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.10.1 by ajgeiss0702 enabled!
-[04:10:16] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3566)
-[04:10:16] [Server thread/INFO]: [Citizens] Loading external libraries
-[04:10:17] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
-[04:10:17] [Server thread/INFO]: [Citizens] Loaded 0 templates.
-[04:10:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
-[04:10:17] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[04:10:18] [Server thread/INFO]: [spark] Starting background profiler...
-[04:10:18] [pool-55-thread-1/INFO]: [ajLeaderboards] You are up to date! (2.10.1)
-[04:10:19] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[04:10:19] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[04:10:19] [Server thread/INFO]: Done preparing level "world" (11.396s)
-[04:10:19] [Server thread/INFO]: Running delayed init tasks
-[04:10:19] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:10:19] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[04:10:19] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
-[04:10:19] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[04:10:19] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[04:10:19] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
-[04:10:19] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loaded 44 holograms!
-[04:10:20] [Server thread/INFO]: [Citizens] Loaded 41 NPCs.
-[04:10:20] [Server thread/INFO]: Done (46.208s)! For help, type "help"
-[04:10:20] [Server thread/INFO]: Timings Reset
-[04:10:28] [Server thread/INFO]: There are 0 of a max of 20 players online: 
-[04:10:35] [Paper Async Task Handler Thread - 1/INFO]: [⚡] spark v1.10.84
-[04:10:35] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Run /spark help to view usage information.
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: [⚡] spark v1.10.84
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler info
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler open
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler start
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:       [--timeout <timeout seconds>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:       [--thread *]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:       [--thread <thread name>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:       [--only-ticks-over <tick length millis>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:       [--interval <interval millis>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:       [--alloc]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler stop
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler cancel
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark tps
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark ping
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--player <username>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark healthreport
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--memory]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--network]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark tickmonitor
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--threshold <percentage increase>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--threshold-tick <tick duration>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--without-gc]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark gc
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark gcmonitor
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark heapsummary
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--save-to-file]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark heapdump
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--compress <type>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark activity
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]:     [--page <page no>]
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: 
-[04:10:38] [Paper Async Task Handler Thread - 1/INFO]: [⚡] For full usage information, please go to: https://spark.lucko.me/docs/Command-Usage
-[04:10:51] [Paper Async Task Handler Thread - 1/INFO]: [⚡] There is not enough data to show ping averages yet. Please try again later.
-[04:11:44] [User Authenticator #0/INFO]: UUID of player _ItsSam is e085de08-dde4-371b-8b53-9e3baa457839
-[04:11:47] [Server thread/INFO]: _ItsSam joined the game
-[04:11:47] [Server thread/INFO]: _ItsSam[/127.151.225.67:60097] logged in with entity id 482 at ([Spawn]8.243470153231165, 87.0, 36.37468690662842)
-[04:15:50] [Server thread/INFO]: _ItsSam lost connection: Disconnected
-[04:15:50] [Server thread/INFO]: _ItsSam left the game
+[18:14:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:14:59] [ServerMain/INFO]: Loaded 1290 recipes
+[18:14:59] [ServerMain/INFO]: Loaded 1399 advancements
+[18:14:59] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:14:59] [Server thread/INFO]: Loading properties
+[18:14:59] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[18:15:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:15:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:15:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:15:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:15:01] [Server thread/INFO]: Default game type: SURVIVAL
+[18:15:01] [Server thread/INFO]: Generating keypair
+[18:15:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:15:01] [Server thread/INFO]: Using epoll channel type
+[18:15:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:15:01] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[18:15:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+[18:15:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+[18:15:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:15:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:15:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[18:15:06] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:15:06] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[18:15:06] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1130;ef7e84e
+[18:15:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6c5eb02e]
+[18:15:08] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[18:15:08] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[18:15:08] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.6
+[18:15:08] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[18:15:08] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.1
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Loading server plugin ajLeaderboards v2.10.1
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[18:15:08] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[18:15:08] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.35-SNAPSHOT (build 3566)
+[18:15:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:15:08] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[18:15:09] [Server thread/INFO]:         __    
+[18:15:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[18:15:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:15:09] [Server thread/INFO]: 
+[18:15:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:15:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:15:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:15:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:15:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 938ms)
+[18:15:09] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:15:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:15:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:15:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:15:10] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1130;ef7e84e
+[18:15:10] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[18:15:10] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[18:15:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:15:10] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:15:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[18:15:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[18:15:13] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1 build(s) out of date.
+You are running build 1130, the latest version is build 1131.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[18:15:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[18:15:15] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:15:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.7]
+[18:15:15] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[18:15:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:15:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:15:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:15:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:15:15] [Server thread/INFO]: Preparing level "world"
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:15:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[18:15:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:15:17] [Server thread/INFO]: Time elapsed: 1318 ms
+[18:15:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:15:17] [Server thread/INFO]: Time elapsed: 255 ms
+[18:15:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:15:17] [Server thread/INFO]: Time elapsed: 93 ms
+[18:15:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+[18:15:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[18:15:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[18:15:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:15:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[18:15:18] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK
+[18:15:18] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21-130-b1b5d4c (MC: 1.21) and contains features of future minecraft versions which do not exist in 1.21-130-b1b5d4c (MC: 1.21) hence the tree type PALE_OAK is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
+[18:15:18] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK_CREAKING
+[18:15:18] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21-130-b1b5d4c (MC: 1.21) and contains features of future minecraft versions which do not exist in 1.21-130-b1b5d4c (MC: 1.21) hence the tree type PALE_OAK_CREAKING is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:15:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:15:18] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:15:18] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.6
+[18:15:18] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_21_R1 (1.21).
+[18:15:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[18:15:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[18:15:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[18:15:19] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
+[18:15:19] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[18:15:19] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.1
+[18:15:20] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[18:15:21] [Server thread/INFO]: Time elapsed: 815 ms
+[18:15:21] [Server thread/INFO]: [WorldGuard] (survival) TNT ignition is PERMITTED.
+[18:15:21] [Server thread/INFO]: [WorldGuard] (survival) Lighters are PERMITTED.
+[18:15:21] [Server thread/INFO]: [WorldGuard] (survival) Lava fire is PERMITTED.
+[18:15:21] [Server thread/INFO]: [WorldGuard] (survival) Fire spread is UNRESTRICTED.
+[18:15:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival'
+[18:15:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.1.1]
+[18:15:22] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[18:15:22] [Server thread/INFO]: [Multiverse-Core] Version 5.1.1 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[18:15:22] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[18:15:22] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.10.1
+[18:15:23] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[18:15:24] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[18:15:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.10.1]
+[18:15:24] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[18:15:24] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.10.1 by ajgeiss0702 enabled!
+[18:15:24] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3566)
+[18:15:24] [Server thread/INFO]: [Citizens] Loading external libraries
+[18:15:24] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[18:15:25] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[18:15:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[18:15:25] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[18:15:25] [Server thread/INFO]: [spark] Starting background profiler...
+[18:15:26] [pool-55-thread-1/INFO]: [ajLeaderboards] You are up to date! (2.10.1)
+[18:15:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:15:26] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[18:15:26] [Server thread/INFO]: Done preparing level "world" (11.650s)
+[18:15:26] [Server thread/INFO]: Running delayed init tasks
+[18:15:26] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:15:26] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[18:15:26] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[18:15:27] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[18:15:27] [Server thread/INFO]: Done (40.911s)! For help, type "help"
+[18:15:27] [Server thread/INFO]: Timings Reset
+[18:15:27] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:15:27] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[18:17:01] [User Authenticator #0/INFO]: UUID of player _ItsSam is e085de08-dde4-371b-8b53-9e3baa457839
+[18:17:04] [Server thread/INFO]: _ItsSam joined the game
+[18:17:04] [Server thread/INFO]: _ItsSam[/127.35.165.224:34989] logged in with entity id 198 at ([survival]-17.612169734786796, 152.118138230473, 41.96892538433778)
+[18:17:12] [Server thread/INFO]: _ItsSam fell from a high place
+[18:17:26] [Server thread/INFO]: _ItsSam issued server command: /mv list
+[18:17:33] [Server thread/INFO]: _ItsSam issued server command: /mv tp survival
+[18:17:38] [Server thread/INFO]: _ItsSam issued server command: /mv tp world
+[18:17:45] [Server thread/INFO]: _ItsSam issued server command: /gamemode creative
+[18:17:45] [Server thread/INFO]: [_ItsSam: Set own game mode to Creative Mode]
+[18:17:51] [Server thread/INFO]: _ItsSam issued server command: /mv remove survival
+[18:17:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival'
+[18:17:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival'
+[18:17:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival'
+[18:17:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 126 entity chunks, 0 poi chunks in world 'survival' in 0.04s
+[18:22:01] [Server thread/INFO]: _ItsSam issued server command: /tps
+[18:22:51] [Server thread/INFO]: _ItsSam issued server command: /tp 0 100 0
+[18:22:51] [Server thread/INFO]: [_ItsSam: Teleported _ItsSam to 0.500000, 100.000000, 0.500000]
+[18:23:52] [Server thread/INFO]: _ItsSam issued server command: /lp listgroups

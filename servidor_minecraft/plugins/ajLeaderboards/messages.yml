@@ -5,6 +5,8 @@ signs:
         - '&6{NAME}'
         - '&e{VALUE} {VALUENAME}'
         - '&7&m                   '
+no-player-skin:
+    default: Superman00800
 formatted:
     k: k
     m: m
@@ -61,8 +63,6 @@ loading:
     short: -?-
     position: ..
     size: '...'
-no-player-skin:
-    default: Superman00800
 updater:
     slow-feedback: '&7Checking for update and downloading...'
     disabled: '&cThe updater is disabled! &7Please enable it in the config to download

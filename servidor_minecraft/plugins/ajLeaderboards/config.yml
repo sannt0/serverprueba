@@ -79,8 +79,8 @@ update-on-leave: true
 # For example, you can have a KDR leaderboard, then next to each player on the leaderboard,
 #  you can show their actual kills and deaths
 # More info: https://wiki.ajg0702.us/ajleaderboards/setup/extras/
-extras: 
-- "statistic_player_kills"
+extras:
+  - "statistic_player_kills"
 
 # When resetting a timed type (e.g. daily, weekly, etc) how many positions should we save?
 # They are saved in the "past-resets" folder
@@ -114,7 +114,7 @@ reset-weekly-on: sunday
 # What should values be called?
 # In the default value, the statistic_player_kills board will have a name of "kills" to be displayed on signs after the value
 # This is only used in signs. If you want more than this, you can change the sign format in the messages.yml file
-value-names: 
+value-names:
 - "statistic_player_kills%kills"
 
 # Should this server update player stats?
@@ -242,6 +242,6 @@ config-version: 35
 # to messages.yml. They will be removed from here in the future.
 # They are only still here to ensure they can be copied from here to the messages file.
 # If you change these here, they WILL NOT work. Only change them in messages.yml
-no-data-name: ---
-no-data-score: ---
+no-data-name: "---"
+no-data-score: "---"
 # ^ Change those in messages.yml now
