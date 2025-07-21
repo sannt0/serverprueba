@@ -7,7 +7,7 @@ facing: 0.0
 down-origin: false
 pages:
 - lines:
-  - content: '#ICON:gold_ingot'
+  - content: '#ICON:fire_coral_fan'
     height: 0.6
   - content: '&#FF5E5B&l黃 &#FF645D&lDU&#FF695F&lSK&#FF6F61&lHA&#FF7462&lVE&#FF7A64&lN &#FF7A64&l黃'
     height: 0.3
@@ -17,21 +17,19 @@ pages:
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&f&oWelcome back to Server Name, &e&o{player}&f&o!'
+  - content: '&f&oBienvenido de vuelta a DuskHaven, #FF5E5B&o&n&l{player}&f&o!'
     height: 0.3
-  - content: '&f&oWe''re happy you''re here for &e&oSeason 1&f&o!'
+  - content: '&f&oDisfruta de la primera #FF5E5B&o&n&lTemporada&f&o&r!'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&f&oReady to start? Use &e&o/rtp&f&o to begin your adventure!'
+  - content: '&f&oEstás listo para empezar? Usa #FF5E5B&o&l/rtp&r&f&o para empezar tu aventura!'
     height: 0.3
-  - content: '&f&oClaim land and begin to expand your &e&oempire&f&o!'
+  - content: '&f&o¡Reclama tierras y comienza a expandir tu #FF5E5B&oimperio&r&f&o!'
     height: 0.3
-  - content: '&f&oClaim your rewards with &e&o/rewards&f&o!'
+  - content: '&f&o¡Reclama tus recompensas con #FF5E5B&o&l/rewards&r&f&o!'
     height: 0.5
-  - content: '&f&oMake sure to check our &e&o/help &f&ofor helpful information!'
-    height: 0.3
-  - content: '&f&oSurvival Setup &e&o1.1 &f&owas last updated on &e&o15th September,
-      2024'
+  - content: '&f&o¡Asegúrate de revisar #FF5E5B&o/help &f&opara obtener información útil!'
     height: 0.3
   actions: {}
+
