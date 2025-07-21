@@ -1,4 +1,4 @@
-location: Spawn:0.606:75.136:13.403
+location: Spawn:0.507:76.158:13.458
 enabled: true
 display-range: 48
 update-range: 48
@@ -9,11 +9,13 @@ pages:
 - lines:
   - content: '#ICON:fire_coral_fan'
     height: 0.6
-  - content: '&#FF5E5B&l黃 &#FF645D&lDU&#FF695F&lSK&#FF6F61&lHA&#FF7462&lVE&#FF7A64&lN &#FF7A64&l黃'
+  - content: '&#FF5E5B&l黃 &#FF645D&lDU&#FF695F&lSK&#FF6F61&lHA&#FF7462&lVE&#FF7A64&lN
+      &#FF7A64&l黃'
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&#FF5E5B&l&oS&#FF635D&l&oU&#FF675E&l&oR&#FF6C60&l&oV&#FF7161&l&oI&#FF7663&l&oV&#FF7A64&l&oA&#FF7F66&l&oL&r &8&o- &7&o[1.21]'
+  - content: '&#FF5E5B&l&oS&#FF635D&l&oU&#FF675E&l&oR&#FF6C60&l&oV&#FF7161&l&oI&#FF7663&l&oV&#FF7A64&l&oA&#FF7F66&l&oL&r
+      &8&o- &7&o[1.21]'
     height: 0.3
   - content: '&r'
     height: 0.3
@@ -23,13 +25,15 @@ pages:
     height: 0.3
   - content: '&r'
     height: 0.3
-  - content: '&f&oEstás listo para empezar? Usa #FF5E5B&o&l/rtp&r&f&o para empezar tu aventura!'
+  - content: '&f&oEstás listo para empezar? Usa #FF5E5B&o&l/rtp&r&f&o para empezar
+      tu aventura!'
     height: 0.3
   - content: '&f&o¡Reclama tierras y comienza a expandir tu #FF5E5B&oimperio&r&f&o!'
     height: 0.3
   - content: '&f&o¡Reclama tus recompensas con #FF5E5B&o&l/rewards&r&f&o!'
     height: 0.5
-  - content: '&f&o¡Asegúrate de revisar #FF5E5B&o/help &f&opara obtener información útil!'
+  - content: '&f&o¡Asegúrate de revisar #FF5E5B&o&l/help &f&opara obtener información
+      útil!'
     height: 0.3
   actions: {}
 

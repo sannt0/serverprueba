@@ -247,3 +247,32 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [22:08:58] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
 [22:08:58] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loaded 44 holograms!
 [22:08:58] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Successfully reloaded in 17 ms!
+[22:10:45] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[22:10:45] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loaded 44 holograms!
+[22:10:45] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Successfully reloaded in 22 ms!
+[22:11:00] [Craft Scheduler Thread - 14 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[22:11:00] [Craft Scheduler Thread - 14 - DecentHolograms/INFO]: [DecentHolograms] Loaded 44 holograms!
+[22:11:00] [Craft Scheduler Thread - 14 - DecentHolograms/INFO]: [DecentHolograms] Successfully reloaded in 16 ms!
+[22:12:21] [Server thread/INFO]: _ItsSam issued server command: /dh holo movehere Welcome
+[22:12:28] [Server thread/INFO]: _ItsSam issued server command: /dh holo movehere Welcome
+[22:17:00] [Server thread/INFO]: _ItsSam issued server command: /npc fox --sitting
+[22:17:06] [Server thread/INFO]: _ItsSam issued server command: /npc fox
+[22:17:19] [Server thread/INFO]: _ItsSam issued server command: /npc create welcome
+[22:17:33] [Server thread/INFO]: _ItsSam issued server command: /npc fox --sitting
+[22:17:37] [Server thread/INFO]: _ItsSam issued server command: /npc fox
+[22:17:53] [Server thread/INFO]: _ItsSam issued server command: /npc create --type fox
+[22:18:03] [Server thread/INFO]: _ItsSam issued server command: /npc create Welcome --type fox
+[22:18:11] [Server thread/INFO]: _ItsSam issued server command: /npc remove welcome
+[22:18:15] [Server thread/INFO]: _ItsSam issued server command: /npc remove welcome 1
+[22:18:18] [Server thread/INFO]: _ItsSam issued server command: /npc remove 1
+[22:18:31] [Server thread/INFO]: _ItsSam issued server command: /npc tphere
+[22:18:39] [Server thread/INFO]: _ItsSam issued server command: /npc select --range
+[22:18:43] [Server thread/INFO]: _ItsSam issued server command: /npc select
+[22:18:46] [Server thread/INFO]: _ItsSam issued server command: /npc tphere
+[22:18:58] [Server thread/INFO]: _ItsSam issued server command: /npc fox --sitting
+[22:19:20] [Server thread/INFO]: _ItsSam issued server command: /npc help
+[22:19:38] [Server thread/INFO]: _ItsSam issued server command: /npc help 2
+[22:19:48] [Server thread/INFO]: _ItsSam issued server command: /npc help 3
+[22:19:55] [Server thread/INFO]: _ItsSam issued server command: /npc configgui
+[22:20:37] [Server thread/INFO]: _ItsSam issued server command: /npc select
+[22:20:42] [Server thread/INFO]: _ItsSam issued server command: /npc fox
