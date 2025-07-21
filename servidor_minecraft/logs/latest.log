@@ -291,3 +291,5 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [19:01:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
 [19:01:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
 [19:01:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'spawn' in 0.00s
+[19:11:36] [Server thread/INFO]: _ItsSam issued server command: /gamemode creative
+[19:11:36] [Server thread/INFO]: [_ItsSam: Set own game mode to Creative Mode]
