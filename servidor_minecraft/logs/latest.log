@@ -209,3 +209,16 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [18:22:51] [Server thread/INFO]: _ItsSam issued server command: /tp 0 100 0
 [18:22:51] [Server thread/INFO]: [_ItsSam: Teleported _ItsSam to 0.500000, 100.000000, 0.500000]
 [18:23:52] [Server thread/INFO]: _ItsSam issued server command: /lp listgroups
+[18:28:30] [Async Chat Thread - #0/INFO]: [Not Secure] <_ItsSam> &#FF5E5B
+[18:28:55] [Server thread/INFO]: _ItsSam issued server command: /lp group default meta setprefix "&#FF5E5B &r"
+[18:28:55] [luckperms-command-executor/INFO]: [LP] LOG > (_ItsSam) [G] (default)
+[18:28:55] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &#FF5E5B &r
+[18:29:04] [Server thread/INFO]: _ItsSam issued server command: /lp group default meta setprefix "&#FF5E5BUSER &r"
+[18:29:04] [luckperms-command-executor/INFO]: [LP] LOG > (_ItsSam) [G] (default)
+[18:29:04] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &#FF5E5BUSER &r
+[18:30:18] [Server thread/INFO]: _ItsSam issued server command: /spark profiler
+[18:30:31] [Server thread/INFO]: _ItsSam issued server command: /spark profiler --stop
+[18:30:31] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[18:30:33] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Profiler stopped & upload complete!
+[18:30:33] [Paper Async Task Handler Thread - 0/INFO]: https://spark.lucko.me/rgG1fUv5l4
+[18:30:33] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)

@@ -5,6 +5,19 @@
       "name": "_ItsSam",
       "uniqueId": "e085de08-dde4-371b-8b53-9e3baa457839"
     },
+    "time": 1753122633253,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rgG1fUv5l4"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "_ItsSam",
+      "uniqueId": "e085de08-dde4-371b-8b53-9e3baa457839"
+    },
     "time": 1752958146402,
     "type": "Profiler",
     "data": {
