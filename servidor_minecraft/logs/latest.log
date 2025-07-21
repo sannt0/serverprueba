@@ -264,3 +264,30 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [18:55:20] [Server thread/INFO]: _ItsSam issued server command: /mv tp spawn
 [18:55:23] [Server thread/INFO]: _ItsSam issued server command: /gamemode creative
 [18:55:23] [Server thread/INFO]: [_ItsSam: Set own game mode to Creative Mode]
+[18:55:49] [Server thread/INFO]: _ItsSam issued server command: /time set day
+[18:55:49] [Server thread/INFO]: [_ItsSam: Set the time to 1000]
+[18:56:00] [Server thread/INFO]: _ItsSam issued server command: /gamerule doMobSpawning false
+[18:56:00] [Server thread/INFO]: [_ItsSam: Gamerule doMobSpawning is now set to: false]
+[18:56:06] [Server thread/INFO]: _ItsSam issued server command: /gamerule doMobLoot false
+[18:56:06] [Server thread/INFO]: [_ItsSam: Gamerule doMobLoot is now set to: false]
+[18:56:18] [Server thread/INFO]: _ItsSam issued server command: /region info
+[18:56:28] [Server thread/INFO]: _ItsSam issued server command: /region __global__ flag
+[18:56:35] [Server thread/INFO]: _ItsSam issued server command: /region __global__ flags
+[18:56:43] [Server thread/INFO]: _ItsSam issued server command: /region __global__ flags invicible
+[18:56:46] [Server thread/INFO]: _ItsSam issued server command: /region __global__ flags list
+[18:56:48] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'spawn' have been background saved
+[18:56:49] [Server thread/INFO]: _ItsSam issued server command: /region __global__ flag list
+[18:56:57] [Server thread/INFO]: _ItsSam issued server command: /region __global__ list
+[18:57:11] [Server thread/INFO]: _ItsSam issued server command: /region __global__ flags jkashdk
+[18:57:15] [Server thread/INFO]: _ItsSam issued server command: /region __global__ flags add
+[18:57:29] [Server thread/INFO]: _ItsSam issued server command: /difficulty peaceful
+[18:57:29] [Server thread/INFO]: [_ItsSam: The difficulty has been set to Peaceful]
+[19:00:06] [Server thread/INFO]: _ItsSam issued server command: /gamemode spectator
+[19:00:06] [Server thread/INFO]: [_ItsSam: Set own game mode to Spectator Mode]
+[19:00:45] [Server thread/INFO]: _ItsSam issued server command: /mv tp world
+[19:00:59] [Server thread/INFO]: _ItsSam issued server command: /mv delete spawn
+[19:01:06] [Server thread/INFO]: _ItsSam issued server command: /mv confirm 465
+[19:01:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[19:01:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[19:01:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[19:01:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'spawn' in 0.00s
