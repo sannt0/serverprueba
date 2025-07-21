@@ -237,3 +237,30 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [18:37:56] [Server thread/INFO]: [_ItsSam: Set own game mode to Creative Mode]
 [18:41:39] [Server thread/INFO]: _ItsSam lost connection: Timed out
 [18:41:39] [Server thread/INFO]: _ItsSam left the game
+[18:47:36] [User Authenticator #1/INFO]: UUID of player _ItsSam is e085de08-dde4-371b-8b53-9e3baa457839
+[18:47:37] [Server thread/INFO]: _ItsSam joined the game
+[18:47:37] [Server thread/INFO]: _ItsSam[/127.35.165.224:39321] logged in with entity id 10746 at ([lobby]220.8009685818639, 67.11650136792812, -8.508219518112424)
+[18:47:53] [Server thread/INFO]: _ItsSam issued server command: /mv tp world
+[18:47:59] [Server thread/INFO]: _ItsSam issued server command: /mv delete lobby
+[18:48:06] [Server thread/INFO]: _ItsSam issued server command: /mv confirm 289
+[18:48:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[18:48:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[18:48:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[18:48:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 120 entity chunks, 0 poi chunks in world 'lobby' in 0.04s
+[18:51:18] [Server thread/INFO]: _ItsSam issued server command: /gamemode creative
+[18:51:18] [Server thread/INFO]: [_ItsSam: Set own game mode to Creative Mode]
+[18:52:50] [Server thread/INFO]: _ItsSam issued server command: /mv list
+[18:55:14] [Server thread/INFO]: _ItsSam issued server command: /mv import spawn
+[18:55:17] [Server thread/INFO]: _ItsSam issued server command: /mv import spawn normal
+[18:55:17] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[18:55:17] [Server thread/INFO]: Time elapsed: 91 ms
+[18:55:17] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[18:55:17] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[18:55:17] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[18:55:17] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[18:55:17] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[18:55:17] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[18:55:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[18:55:20] [Server thread/INFO]: _ItsSam issued server command: /mv tp spawn
+[18:55:23] [Server thread/INFO]: _ItsSam issued server command: /gamemode creative
+[18:55:23] [Server thread/INFO]: [_ItsSam: Set own game mode to Creative Mode]

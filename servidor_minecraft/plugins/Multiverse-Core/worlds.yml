@@ -1,4 +1,4 @@
-lobby:
+spawn:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -25,12 +25,12 @@ lobby:
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -3630704333581925617
+  seed: -425929833367838517
   spawn-location:
     ==: MVSpawnLocation
-    x: 178.0
-    y: 65.0
-    z: 42.0
+    x: 1.0
+    y: 68.0
+    z: 0.0
     pitch: 0.0
     yaw: 0.0
   spawning: {}
