@@ -222,3 +222,18 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [18:30:33] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Profiler stopped & upload complete!
 [18:30:33] [Paper Async Task Handler Thread - 0/INFO]: https://spark.lucko.me/rgG1fUv5l4
 [18:30:33] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
+[18:37:47] [Server thread/INFO]: _ItsSam issued server command: /mv import lobby normal
+[18:37:47] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[18:37:47] [Server thread/INFO]: Time elapsed: 5 ms
+[18:37:47] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[18:37:47] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[18:37:47] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[18:37:47] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[18:37:47] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
+[18:37:47] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[18:37:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[18:37:52] [Server thread/INFO]: _ItsSam issued server command: /mv tp lobby
+[18:37:56] [Server thread/INFO]: _ItsSam issued server command: /gamemode creative
+[18:37:56] [Server thread/INFO]: [_ItsSam: Set own game mode to Creative Mode]
+[18:41:39] [Server thread/INFO]: _ItsSam lost connection: Timed out
+[18:41:39] [Server thread/INFO]: _ItsSam left the game
