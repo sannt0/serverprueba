@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.35.165.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1753141114301
+  login: 1753140794463
+money: '0'
+last-account-name: Santohh
+lastlocation:
+  world: 2a170c9f-dded-44cc-9666-000d3e74b112
+  world-name: Spawn
+  x: 0.38217166998048724
+  y: 71.0
+  z: 0.565971417877978
+  yaw: 89.85002136230469
+  pitch: -3.149991989135742
+logoutlocation:
+  world: 2a170c9f-dded-44cc-9666-000d3e74b112
+  world-name: Spawn
+  x: 0.1971133468327096
+  y: 71.0
+  z: 1.03569407027938
+  yaw: 140.100341796875
+  pitch: 27.29996109008789

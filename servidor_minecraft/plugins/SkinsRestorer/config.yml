@@ -32,14 +32,14 @@
 messages:
     # A locale code for the locale you want to use by default for messages and commands.
     # Has to be a string separated by an underscore.
-    locale: en
+    locale: es
     # A locale code for the messages and commands sent to the console.
     # This is useful if you want to use a different locale for the console than for players.
     # We recommend keeping this at the default value because we mostly only provide support in English.
     # Has to be a string separated by an underscore.
     consoleLocale: en
     # Disable the message prefix in SkinsRestorer messages.
-    disablePrefix: false
+    disablePrefix: true
     # Every message sent by the plugin will use the players client locale if a translation is available.
     # If disabled, the config locale will be used instead.
     perIssuerLocale: true

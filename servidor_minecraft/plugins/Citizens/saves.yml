@@ -1,4 +1,60 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 0
-npc: {}
+last-created-npc-id: 3
+npc:
+  '2':
+    name: '&r'
+    uuid: 7ed3abfd-73a1-4620-8b94-54c52d8f0215
+    traits:
+      foxtrait:
+        sitting: true
+      owner:
+        uuid: e085de08-dde4-371b-8b53-9e3baa457839
+      location:
+        bodyYaw: 178.20105
+        world: Spawn
+        x: 0.4626
+        y: 70.0
+        z: 13.563
+        yaw: -182.8404
+        pitch: -9.4456
+      type: FOX
+      spawned: true
+      followtrait:
+        followingUUID: e085de08-dde4-371b-8b53-9e3baa457839
+    traitnames: owner,type,foxtrait,spawned,location,scoreboardtrait,followtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      silent-sounds: false
+  '3':
+    metadata:
+      cached-skin-uuid: 79923036-b581-466a-853f-c15d96ed473d
+      cached-skin-uuid-name: straight
+      nameplate-visible: hover
+    name: Survival
+    uuid: 33babfbc-4966-4722-8d6b-bfff693c39bd
+    traits:
+      skintrait:
+        signature: gFjjGi/523ohv0oiP6op49qNSIgM9sX4OWGJb5ZgW2os44FU/a8j3eX5nZtZGaKzyst4CoRsy4Iu2gR9Somg8DsenoJgCAI0rFvCqau+O8uzPnNciVy8URH1kae/0gaveAVZwvzA89XMveIlYK98Ija2fsrFeIRxPMZ8rZHLSZdNSmKX7GWt8QcsF9vefckwbKDIsKjAnBRJ0GhbrJl0MxCJjI19zDlhgKpMx0zIG8KJnIXBsgZNnZdGik8yTXPzxMGeDmx4dXQxK0QAl6yewjq9KAsgMWHjFcJYRO6Vb3KDZ8PRSUTTqgXtiDPY9JkIsXSFkcF8sWkoiTDscD01a7TQBAp/m02euDry19AyUyp7+37fKbUXQuu8XBjuf7tszFoLCXxhdbW4BctcLA8mIgBfyxShad6AzYbTlmkxsZq/okWDgYDQ4SCN6LEhBJRHcRH5O1SR3PajGO3/mAn7zuGajmfltV3aV5XedtGuZeIiuA5Cswx2jwnq+k2zXSDud8/MXwtEZ/8nYjH7cy5GaX8sZJI+DWcPDaPpzxSKpabL7fQsPbVWaLSwRVyosa2rlAiy8+JKbD4h/FXnL1wPK87uuJq1cLZTFCM9FxLo6is297kNpIs+sB8TaaTWoP2Lz4Uz4YBKWEzcc2a/bFZTs+4fHZvIlgg4IKSSIO3rQy8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1MzEzODQ2MjA1NiwKICAicHJvZmlsZUlkIiA6ICI3OTkyMzAzNmI1ODE0NjZhODUzZmMxNWQ5NmVkNDczZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdHJhaWdodCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YzhhODUwZTBiMzJkZGRhOTZlNTYxMTdmOGRjNGVkYTQ2Yjc1ZDc3NWIyMmY5YmYyMjZmZTY3OGViYzIwMDJjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        skinName: Straight
+      owner:
+        uuid: e085de08-dde4-371b-8b53-9e3baa457839
+      location:
+        bodyYaw: -90.15112
+        world: Spawn
+        x: -9.533
+        y: 71.0
+        z: 0.4705
+        yaw: -90.1511
+        pitch: -1.5
+      type: PLAYER
+      spawned: true
+    traitnames: owner,skintrait,type,inventory,spawned,equipment,location,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

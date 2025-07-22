@@ -9,4 +9,20 @@
 #
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
-regions: {}
+regions:
+    __global__:
+        members: {}
+        flags: {deny-message: '', other-explosion: deny, lava-fire: deny, invincible: allow,
+            use: deny, ice-melt: deny, block-trampling: deny, snow-fall: deny, vehicle-destroy: deny,
+            chest-access: deny, firework-damage: deny, ride: deny, fire-spread: deny,
+            sleep: deny, vehicle-place: deny, snowman-trails: deny, mob-damage: deny,
+            ravager-grief: deny, entity-painting-destroy: deny, use-anvil: deny, mushroom-growth: deny,
+            lightning: deny, wither-damage: deny, ice-form: deny, enderman-grief: deny,
+            pvp: deny, pistons: deny, mob-spawning: deny, enderpearl: deny, item-drop: deny,
+            creeper-explosion: deny, exp-drops: deny, build: deny, fall-damage: deny,
+            item-pickup: deny, item-frame-rotation: deny, potion-splash: deny, damage-animals: deny,
+            snow-melt: deny, lava-flow: deny, tnt: deny, entity-item-frame-destroy: deny,
+            ghast-fireball: deny, grass-growth: deny}
+        owners: {}
+        type: global
+        priority: 0
