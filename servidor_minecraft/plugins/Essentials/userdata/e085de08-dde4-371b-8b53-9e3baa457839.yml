@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1753141284690
+  logout: 1753200671640
   login: 1753200169483
 money: '0'
 last-account-name: _ItsSam
 logoutlocation:
   world: 2a170c9f-dded-44cc-9666-000d3e74b112
   world-name: Spawn
-  x: -8.246220858325296
-  y: 71.0
-  z: 0.2953895516614162
-  yaw: 87.45004272460938
-  pitch: 7.350001335144043
+  x: -0.12333306567328411
+  y: 70.0
+  z: 12.201026176826945
+  yaw: 126.15000915527344
+  pitch: 6.900008201599121
 lastlocation:
   world: 2a170c9f-dded-44cc-9666-000d3e74b112
   world-name: Spawn
