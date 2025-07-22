@@ -16,13 +16,13 @@ npc:
         x: 0.4626
         y: 70.0
         z: 13.563
-        yaw: -182.8404
-        pitch: -9.4456
+        yaw: -203.2778
+        pitch: 0.0
       type: FOX
       spawned: true
       followtrait:
         followingUUID: e085de08-dde4-371b-8b53-9e3baa457839
-    traitnames: owner,type,foxtrait,spawned,location,scoreboardtrait,followtrait
+    traitnames: spawned,owner,type,followtrait,foxtrait,scoreboardtrait,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -53,7 +53,38 @@ npc:
         pitch: -1.5
       type: PLAYER
       spawned: true
-    traitnames: owner,skintrait,type,inventory,spawned,equipment,location,scoreboardtrait
+      commandtrait:
+        commands:
+          '0':
+            command: mv tp survival %player%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '1':
+            command: mv tp survival %player%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+    traitnames: spawned,skintrait,owner,equipment,type,commandtrait,scoreboardtrait,inventory,location
     navigator:
       speedmodifier: 1.0
       avoidwater: false
