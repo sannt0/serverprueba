@@ -286,3 +286,25 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [15:41:21] [pool-59-thread-1/INFO]: [ajLeaderboards] You are up to date! (2.10.1)
 [15:41:21] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] ¡Estás a 131 compilación(es) de desactualización de EssentialsX!
 [15:41:21] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] Descárgala aquí: https://essentialsx.net/downloads.html
+[16:02:46] [User Authenticator #0/INFO]: UUID of player _ItsSam is e085de08-dde4-371b-8b53-9e3baa457839
+[16:02:49] [Server thread/INFO]: _ItsSam[/127.12.157.114:49629] logged in with entity id 453 at ([Spawn]0.38217166998048724, 71.0, 0.565971417877978)
+[16:02:49] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 33.219783ms. Summary: Getting group for _ItsSam
+[16:03:01] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user _ItsSam has successfully logged in.
+[16:03:22] [Server thread/INFO]: _ItsSam issued server command: /gamemode creative
+[16:03:39] [Server thread/INFO]: _ItsSam issued server command: /enchant alldamage 5
+[16:07:02] [Server thread/INFO]: _ItsSam issued server command: /tp 0 100 0
+[16:07:29] [Server thread/INFO]: _ItsSam issued server command: /npc command
+[16:07:33] [Server thread/INFO]: _ItsSam issued server command: /npc sel
+[16:07:34] [Server thread/INFO]: _ItsSam issued server command: /npc command
+[16:08:25] [Server thread/INFO]: _ItsSam issued server command: /tps
+[16:10:20] [Server thread/INFO]: _ItsSam issued server command: /npc sel
+[16:10:26] [Server thread/INFO]: _ItsSam issued server command: /npc command
+[16:10:45] [Server thread/INFO]: _ItsSam issued server command: /npc command add "mv tp survival %player%"
+[16:10:47] [Server thread/INFO]: Error: Invalid player: survival. Either specify an online player or use this command as a player.
+[16:10:47] [Server thread/INFO]: Uso: mvtp [player] <destination> [--unsafe]
+[16:10:50] [Server thread/INFO]: _ItsSam issued server command: /npc sel
+[16:10:53] [Server thread/INFO]: _ItsSam issued server command: /npc command add "mv tp survival %player%"
+[16:10:55] [Server thread/INFO]: Error: Invalid player: survival. Either specify an online player or use this command as a player.
+[16:10:55] [Server thread/INFO]: Uso: mvtp [player] <destination> [--unsafe]
+[16:10:57] [Server thread/INFO]: Error: Invalid player: survival. Either specify an online player or use this command as a player.
+[16:10:57] [Server thread/INFO]: Uso: mvtp [player] <destination> [--unsafe]
